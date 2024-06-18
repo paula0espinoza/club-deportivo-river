@@ -1,0 +1,14 @@
+.logo3{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 5em;
+    height: 7em;
+}
+.river{
+    position: relative;
+    top: 20px;
+    left: 120px;
+    width: 5px;
+    height: 7px;
+}

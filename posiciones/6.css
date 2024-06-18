@@ -1,0 +1,22 @@
+.logo6{
+    float: left;
+    top: 5px;
+    left: 30px;
+    width: 5em;
+    height: 7em;
+}
+header h1{
+   position: absolute;
+    font-size: 4em;
+    top: 2px;
+    left: 78px;
+}
+.contenido{
+    clear: left;
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+.menu span{
+    background-color: red;
+}

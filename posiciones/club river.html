@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="6.css" type="text/css">
+<head>
+    <body>
+
+        <header>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_River_Plate.png" alt="escudo del club" class="logo6">
+<h1> Club deportivo River</h1>
+
+<nav class="menu">
+    <a href="reservar.html">Inicio</a>
+    <span class="desactivado">Reservar</span> &nbsp;
+    <a href="consultar.html">Consultar</a> &nbsp;
+    <a href="cancelar.html">Cancelar</a>
+</nav>
+
+</header>
+
+<div class="contenido">
+
+    <h1>Ingreso</h1>
+
+    <form action="reservar.html">
+    <label for="usuario">Usuario</label>
+    <input type="text" id="usuario"> <br> <br>
+    <label for="pass">Contraseña</label>
+    <input type="password" id="pass"><br> <br>
+    <input type="submit" value="Enviar"> 
+</form>
+
+    <h1>Reserva de turno</h1>
+    
+    <form action="" method="get">
+    <label for="espacios">Espacio</label>
+    <select name="espacios1" id="espacios">
+    <option value="futbol">Futbol</option>
+    <option value="voley">Voley</option>
+    <option value="basquet">Basquet</option>
+</select>
+<br> <br>
+<label for="fecha">Fecha</label>
+<input type="date" id="fecha" name="fecha">
+<br> <br>
+<input type="submit" value="aceptar">
+</form>
+</div>
+</body>
+</head>
+</html>
